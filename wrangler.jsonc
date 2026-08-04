@@ -1,0 +1,23 @@
+ {
+
+  "name": "messengernotifications",
+
+  "main": "worker.js",
+
+  "compatibility_date": "2026-08-04",
+
+  "vars": {
+
+    "FIREBASE_CLIENT_EMAIL": "firebase-adminsdk-fbsvc@messenger-e50bf.iam.gserviceaccount.com"
+
+  },
+
+  "observability": {
+
+    "enabled": true,
+
+    "head_sampling_rate": 1
+
+  }
+
+}
